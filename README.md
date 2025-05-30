@@ -18,22 +18,15 @@ Built with Python, Flask, and Pillow — with AVIF support via CLI tools.
 
 ## 🧰 Requirements
 
-### ✅ Python Packages (`requirements.txt`)
+Installation them using:
 ```
-Flask==3.*
-Pillow==10.*
-numpy==2.*
-imageio==2.*
-```
-
-Install them using:
-\`\`\`
+.venv\scripts\activate
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 🔧 System Tools
 
-#### 1. \`avifdec\` (required for AVIF support)
+#### 1. `avifdec` (required for AVIF support)
 
 Download from:  
 👉 [https://github.com/AOMediaCodec/libavif/releases](https://github.com/AOMediaCodec/libavif/releases) 
@@ -56,7 +49,7 @@ Update this line in app.py if needed:
 
 Your project should look like this:
 
-\`\`\`
+```
 image-resizer/
 │
 ├── app.py
@@ -67,38 +60,25 @@ image-resizer/
 │   ├── uploads/         # Uploaded original images
 │   └── processed/       # Preview images shown on site
 └── processed/           # Session folders with converted images
-\`\`\`
+```
 
 Create required folders manually:
-\`\`\`
+```
 mkdir -p static/uploads static/processed processed templates
-\`\`\`
+```
 
 Place:
-- \`app.py\` in root
-- \`index.html\` in \`templates/\`
+- `app.py` in root
+- `index.html` in `templates/`
 
 ---
 
 ## ▶️ How to Run
 
-\`\`\`
+```
 pip install -r requirements.txt
 python app.py
-\`\`\`
-
-Then open:
-\`http://localhost:5000\`
-
----
-
-## 🛠️ Optional Future Enhancements
-
-You can add these later if needed:
-- Animated GIF/WebP support → Install \`ffmpeg\`
-- Better AVIF encoding → Use \`avifenc\`
-- Drag-and-drop upload → Update frontend
-- Auto-delete old sessions → Add cleanup logic
+```
 
 ---
 
@@ -107,9 +87,9 @@ You can add these later if needed:
 If you get errors processing AVIF files:
 - Make sure \`avifdec.exe\` exists at the path specified in \`app.py\`
 - Make sure it works in terminal:
-\`\`\`
+```
 avifdec --help
-\`\`\`
+```
 
 If you see:
 \`The term 'avifdec' is not recognized\`
