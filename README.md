@@ -19,12 +19,12 @@ Built with Python, Flask, and Pillow — with AVIF support via CLI tools.
 ## 🧰 Requirements
 
 ### ✅ Python Packages (`requirements.txt`)
-\`\`\`
+```
 Flask==3.*
 Pillow==10.*
 numpy==2.*
 imageio==2.*
-\`\`\`
+```
 
 Install them using:
 \`\`\`
