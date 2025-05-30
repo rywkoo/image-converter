@@ -1,0 +1,4 @@
+Flask==3.*
+Pillow==10.*
+numpy==2.*
+imageio==2.*
