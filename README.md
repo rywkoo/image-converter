@@ -35,7 +35,7 @@ Look for the latest release like:
 `libavif-vX.X.X-windows-x64.zip` (for Windows)
 
 Extract to:
-\`C:\tools\avif\`
+`C:\tools\avif`
 
 Make sure \`avifdec.exe\` is inside that folder.
 
@@ -62,23 +62,9 @@ image-resizer/
 └── processed/           # Session folders with converted images
 ```
 
-Create required folders manually:
-```
-mkdir -p static/uploads static/processed processed templates
-```
-
-Place:
-- `app.py` in root
-- `index.html` in `templates/`
-
 ---
 
-## ▶️ How to Run
-
-```
-pip install -r requirements.txt
-python app.py
-```
+open `start-h.bat` inside the folder to run the WebUI
 
 ---
 
