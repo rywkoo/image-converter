@@ -64,21 +64,23 @@ image-resizer/
 
 ---
 
-open `start-h.bat` inside the folder to run the WebUI
+## ▶️ Launching the WebUI
+
+Open `start-h.bat` inside the folder to run the WebUI.
 
 ---
 
 ## 💬 Having Trouble?
 
 If you get errors processing AVIF files:
-- Make sure \`avifdec.exe\` exists at the path specified in \`app.py\`
+- Make sure `avifdec.exe` exists at the path specified in `app.py`
 - Make sure it works in terminal:
 ```
 avifdec --help
 ```
 
 If you see:
-\`The term 'avifdec' is not recognized\`
+`The term 'avifdec' is not recognized`
 → You need to add the AVIF tools folder to your system PATH or use full path in code.
 
 ---
