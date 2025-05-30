@@ -32,7 +32,7 @@ Download from:
 👉 [https://github.com/AOMediaCodec/libavif/releases](https://github.com/AOMediaCodec/libavif/releases) 
 
 Look for the latest release like:  
-\`libavif-vX.X.X-windows-x64.zip\` (for Windows)
+`libavif-vX.X.X-windows-x64.zip` (for Windows)
 
 Extract to:
 \`C:\tools\avif\`
@@ -40,8 +40,8 @@ Extract to:
 Make sure \`avifdec.exe\` is inside that folder.
 
 Update this line in app.py if needed:
-\`AVIFDEC_PATH = r'C:\tools\avif\avifdec.exe'\`
-> ❗ Do not skip this step if you want to process \`.avif\` files.
+`AVIFDEC_PATH = r'C:\tools\avif\avifdec.exe'`
+> ❗ Do not skip this step if you want to process `.avif` files.
 
 ---
 
