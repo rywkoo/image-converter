@@ -85,12 +85,5 @@ If you see:
 
 ---
 
-## 🚀 Want More?
-
-Let me know if you'd like:
-- A downloadable ZIP of the full project
-- An installer for Windows
-- Deployment instructions (e.g., online hosting)
-
-Enjoy!
+## 🌸 Enjoy!
 "@
