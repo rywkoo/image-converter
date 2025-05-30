@@ -59,7 +59,9 @@ image-resizer/
 ├── static/
 │   ├── uploads/         # Uploaded original images
 │   └── processed/       # Preview images shown on site
-└── processed/           # Session folders with converted images
+├── processed/           # Session folders with converted images
+├── temp_zip/            # Downloadable zip if you don't want to download another zip after processed
+└── start-h.bat
 ```
 
 ---
